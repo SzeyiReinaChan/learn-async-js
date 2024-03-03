@@ -1,1 +1,7 @@
 Explain the code execution based on the order of the messages logged in src/quiz/promise-2darray.txt.
+
+
+1. sum2DArray executed in the main thread
+2. setTimeout for scheduling a callback in the event loop
+3. rejected when input parameter is not an array 
+4. resolved with a valid input array
